@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="script.js"></script>
+  </head>
+  <body onload="poNacteni()">
+   <center>
+  <div id="div_prihlaseni">
+    <h1>Přihlášení uživatele</h1>
+
+    <input type="text" id="uz_jmeno" placeholder="Uživatelské jméno"> 
+  <br>
+    <input type="password" id="heslo" placeholder="Heslo"> 
+  <br>
+   
+    <input type="button" value="Přihlásit" onclick="prihlas()">
+  <br>
+    <input type="button" value="Registrace" onclick="ukazRegistraci()">
+  
+  </div>
+
+  <div id="div_registrace">
+    <h1> Registrace </h1>
+
+    <input type="text" id="cele_jmeno" placeholder="Celé jméno">
+  <br>
+
+    <input type="text" id="prihlas_jmeno" placeholder="Uživatelské jméno">
+  <br>
+
+    <input type="password" id="heslo_r" placeholder="Heslo">
+  <br>
+
+    <input type="text" id="email" placeholder="E-mail">
+  <br>
+    <input type="button" value="Zaregistrovat" onclick="registrovat()"> <br>
+
+    <input type="button" value="Zpět na přihlášení" onclick="ukazPrihlaseni()">
+  </div>
+
+  <div id="div_chat">
+    <input type="text" id="zprava">
+    <input type="button" value="Odeslat" onclick="odesliZpravu()">
+  <br>
+    <div id="zpravy"></div>
+  </div>
+
+
+   </center>
+
+  </body>
+</html>
