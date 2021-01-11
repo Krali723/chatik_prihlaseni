@@ -49,7 +49,7 @@ async function registrovat(){
   }
   if (ans.status == "OK") {
     ukazPrihlaseni();
-    alert("Nyní se můžete přihlásit :D");
+    alert("Pro přihlášení ověřte emailovou adresu!");
   }
 }
 
